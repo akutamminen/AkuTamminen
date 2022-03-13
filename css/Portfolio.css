@@ -1,7 +1,12 @@
-body{
-	background-color: black;
-	margin: 0;
+body {
+  background-image: url("https://www.phdmedia.com/taiwan/wp-content/uploads/sites/41/2017/06/Banner-2.gif");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 22%;
+  margin: 0;
 }
+
+
 
 *{
 	box-sizing: border-box;
@@ -20,11 +25,11 @@ body{
 }
 
 a{
-	color: ghostwhite;
+	color: floralwhite;
 }
 
 nav{
-	background: whitesmoke;
+	background: #5D6D7E;
 	width: 100%;
 	overflow: auto;
 	margin-bottom: 20px;
@@ -47,9 +52,9 @@ nav a{
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	background: whitesmoke;
+	background: #5D6D7E;
 	font-size: 17px;
-	color: black;
+	color: whitesmoke;
 	padding: 20px 10px;
 	font-family:Arial;
 }
@@ -80,7 +85,7 @@ header h2{
 	margin-top: 40px;
 	margin-bottom: -60px;
 	font-size: 200%;
-	color: lightcyan;
+	color: antiquewhite;
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
 	
@@ -94,13 +99,20 @@ header img{
 }
 
 main{
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 100px;
+	margin-bottom: 0px;
 	column-count: 3;
 	width: 100%;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	background-image: url("https://images.unsplash.com/photo-1614851099175-e5b30eb6f696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJhbm5lcnxlbnwwfHwwfHw%3D&w=1000&q=80");
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+  	
+  	
+
 
 
 }
@@ -116,7 +128,7 @@ main img{
 
 main p{
 	font-size: 15px;
-	color: whitesmoke;
+	color: black;
 
 }
 
@@ -127,8 +139,8 @@ footer{
 	width: 100%;
 	display: block;
 	text-decoration: none;
-	background: whitesmoke;
-	color: black;
+	background: #5D6D7E;
+	color: whitesmoke;
 	padding: 10px 10px;
 }
 
