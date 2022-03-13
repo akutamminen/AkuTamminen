@@ -1,6 +1,57 @@
 body{
 	background-color: black;
-	margin: 40px 40px 40px;
+	margin: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.test{
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+
+.test1{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+}
+
+a{
+	color: ghostwhite;
+}
+
+nav{
+	background: whitesmoke;
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 20px;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li{
+	float: left;
+	align-content: center;
+}
+
+nav a{
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background: whitesmoke;
+	font-size: 17px;
+	color: black;
+	padding: 20px 10px;
+	font-family:Arial;
 }
 
 header{
@@ -9,13 +60,15 @@ header{
 }
 
 header h1{
-	font-size: 300%;
+	margin-top: 10px;
+	font-size: 250%;
 	color: whitesmoke;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
 p{
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 200%;
 }
 
 header p{
@@ -24,20 +77,25 @@ header p{
 }
 
 header h2{
+	margin-top: 40px;
+	margin-bottom: -60px;
 	font-size: 200%;
-	color: #D8BFD8;
+	color: lightcyan;
 	font-family: Helvetica, Arial, sans-serif;
 	text-align: center;
 	
 }
 
 header img{
-	border-radius: 160px;
-	width: 300px;
+	margin-top: 30px;
+	border-radius: 130px;
+	width: 250px;
 	border: 5px solid whitesmoke;
 }
 
 main{
+	margin-top: 50px;
+	margin-bottom: 20px;
 	column-count: 3;
 	width: 100%;
 	text-align: center;
@@ -48,8 +106,7 @@ main{
 }
 
 main img{
-	width: 80%;
-	height: 10%;
+	width: 70%;
 	align-content: center;
 	border-radius: 0px;
 	border: 3px solid whitesmoke;
@@ -60,10 +117,19 @@ main img{
 main p{
 	font-size: 15px;
 	color: whitesmoke;
+
 }
 
 footer{
-
+	font-size: 40%;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	background: whitesmoke;
+	color: black;
+	padding: 10px 10px;
 }
 
 
